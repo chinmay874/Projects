@@ -171,16 +171,17 @@ height: 50%;
 }
 .tool1{
     display: flex;
-    width:14%;
+    width:auto;
     margin-left: 15px;
     border-right: 1px solid;
     justify-content: flex-start;
+    padding: 0 6px;
 }
 .undo{
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    padding: 5px;
+    padding: 5px 6px;
 }
 .undo:hover{
     background-color:rgb(193, 195, 199);
@@ -190,7 +191,7 @@ height: 50%;
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    padding: 5px;
+    padding: 5px 6px;
 }
 .redo:hover{
     background-color:rgb(193, 195, 199);
@@ -199,7 +200,7 @@ height: 50%;
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    padding: 5px;
+    padding: 5px 6px;
 }
 .printer:hover{
     background-color:rgb(193, 195, 199);
@@ -209,13 +210,14 @@ height: 50%;
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    padding: 5px;
+    padding: 5px 6px;
 }
 .painter:hover{
     background-color:rgb(193, 195, 199);
 }
 .zoom{
-   
+   height: 35px;
+   padding: 2px 6px;
 }
 .zoom:hover{
     background-color:rgb(193, 195, 199);
@@ -227,7 +229,7 @@ height: 50%;
     background-color: rgb(237,242,250);
     font-size: 15px;
     margin: 0 4px;
-    padding: 6px;
+    padding: 6px 6px;
     border-right: 1px solid;
 }
 .textstyle:hover{
@@ -236,37 +238,120 @@ height: 50%;
     border-radius: 5px;
 }
 
-.textareacontainer{
-    margin-top: 20px;
+.fontsize{
     display: flex;
-    border:none;
+   /* border-right: 1px solid; */
+   height: 20px;
+   width: auto;
+   align-items: center;
+   justify-content: space-between;
+   border-right:1px solid;
+   padding: 6px;
+
+}
+
+.decrement{
+   /* font-size: 18px; */
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+.decrement:hover{
+    background-color: rgb(193, 195, 199);
+}
+  .Fontsize{
+    font-size: 15px;
+    font-weight: bold;
+} 
+.increment{
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+ padding: 2px; 
+}
+.increment:hover{
+    background-color: rgb(193, 195, 199);
+}
+.iconclass{
+    display: flex;
+    border-right:1px solid;
+    height: 20px;
+    width:auto;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    
+}
+.icons{
+    height: 20px;
+    width: 20px;
+    margin:0;
+ padding: 0;
+ 
+}
+.icons:hover{
+    border-radius: 5px;
+    background-color: rgb(193, 195, 199);
+}
+.image{
+    display: flex;
+    border-right:1px solid;
+    height: 20px;
+    width:auto;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+}
+.lineformat{
+    display: flex;
+    /* border-right:1px solid; */
+    height: 20px;
+    width:auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.down{
+    height: 12px;
+    width: 12px;
+    margin:0;
+ padding: 3px;
+}
+.down:hover{
+    border-radius: 5px;
+    background-color: rgb(193, 195, 199);
+}
+.rightside{
+    margin-left: 8%;
+    display: flex;
+    padding-right: 15px;
+    margin-right: 6px;
+    border-right: 1px solid;
+}
+.lnformat{
+    display: flex;
+    padding: 4px;
+}
+
+.textareacontainer{
+    margin: 20px 0px 5px 10px;
+    display: flex;
+    border:1px solid;
+    padding:15px;
     justify-content: center;
 }
 .inputfield{
     display: flex;
-    width:70%;
+    font-size: 16px;
+    min-width:70%;
+    padding-left: 8%;
+    padding-top: 10%;
     height: 100vh;
     border:none;
     box-shadow: 0 0 5px 0; 
     outline: none;
 }
-
-.fontsize{
-   border-right: 1px solid;
-   align-items: center;
-
-}
-
-.decrement{
-    display: flex;
-    border:none;
-    border-radius: 5px;
-    height: 20px;
-    width: 20px;
-    padding: 5px;
-}
-.decrement:hover{
-    background-color: rgb(193, 195, 199);
-}
-
 
