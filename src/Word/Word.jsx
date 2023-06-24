@@ -18,7 +18,7 @@ function Word() {
   const [isBold, setIsBold] = useState(false);
   const [isItalic, setIsItalic] = useState(false);
   const [text, setText] = useState('');
-  const [zoomLevel, setZoomLevel] = useState(50);
+  const [zoomLevel, setZoomLevel] = useState();
 
   const handleBoldClick = () => {
     setIsBold(!isBold);
@@ -91,7 +91,7 @@ function Word() {
             <option>50%</option>
             <option>75%</option>
             <option>90%</option>
-            <option>100%</option>
+            <option selected>100%</option>
             <option>125%</option>
             <option>150%</option>
             <option>200%</option>
